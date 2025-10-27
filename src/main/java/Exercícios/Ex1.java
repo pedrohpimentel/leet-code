@@ -1,7 +1,16 @@
+package Exercícios;
+
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution {
+
+/*
+Exercício 1: Two Sum (Duas Soma)
+Problema: Dada um array de inteiros nums e um inteiro target,
+retorne os índices dos dois números de modo que a soma deles seja igual a target.
+Exemplo: nums = [2, 7, 11, 15], target = 9 -> Saída: [0, 1]
+ */
+class Ex1 {
 
     public int[] twoSum(int[] nums, int target) {
         // Inicializa um HashMap para armazenar (valor : índice)
@@ -20,7 +29,7 @@ class Solution {
                 // Se o complemento existe, encontramos a solução.
                 // O primeiro índice é o índice armazenado do complemento.
                 // O segundo índice é o índice atual (i).
-                return new int[] { numMap.get(complemento), i };
+                return new int[] {numMap.get(complemento), i };
             }
 
             // Se o complemento não foi encontrado, adiciona o número atual ao mapa
@@ -33,7 +42,6 @@ class Solution {
         throw new IllegalArgumentException("Nenhuma solução Two Sum encontrada.");
     }
 }
-
 
 // public class Main {
 //     public static void main(String[] args) {
