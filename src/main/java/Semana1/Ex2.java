@@ -4,7 +4,8 @@ import java.util.Locale;
 import java.util.Scanner;
 
 /*
-Conversor de TemperaturaCrie um programa que:
+Conversor de Temperatura
+Crie um programa que:
 Declare uma variável celsius e atribua a ela uma temperatura em graus Celsius (ex: 25).
 Converta essa temperatura para Fahrenheit usando a fórmula: F = C * (9/5) + 32.
 (Atenção com a divisão de inteiros em Java!) Imprima o resultado em Fahrenheit.
